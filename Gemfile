@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 
 gem 'rails', '4.2.4'
@@ -12,14 +13,5 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem 'paperclip', "4.3"
-
-group :development, :test do
-  gem 'byebug'
-end
-
-group :development do
-  gem 'web-console', '~> 2.0'
-
-  gem 'spring'
-end
-
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
